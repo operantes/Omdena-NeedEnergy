@@ -1,0 +1,114 @@
+(base) C:\Users\alvar\OneDrive\Personal\Repositorio\Data Analytics\Omdena\NeedEnergy\streamlit\Streamlit enabled anomalies_detection (PyOD-based)>heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/114bcc09-068e-4c46-8d7f-4425e1572e5f?requestor=SFMyNTY.g2gDbQAAAA45My4xNzYuMTYxLjE0OW4GAFuyKFd4AWIAAVGA.39J9L2sOBTq0wUhUQ63omPkek6ty38XWMJQP_ArR54I
+Logging in... done
+Logged in as alvaro.montesino@gmail.com
+
+(base) C:\Users\alvar\OneDrive\Personal\Repositorio\Data Analytics\Omdena\NeedEnergy\streamlit\Streamlit enabled anomalies_detection (PyOD-based)>heroku ps:scale web=1
+Scaling dynos... done, now running web at 1:Free
+
+(base) C:\Users\alvar\OneDrive\Personal\Repositorio\Data Analytics\Omdena\NeedEnergy\streamlit\Streamlit enabled anomalies_detection (PyOD-based)>heroku open
+
+(base) C:\Users\alvar\OneDrive\Personal\Repositorio\Data Analytics\Omdena\NeedEnergy\streamlit\Streamlit enabled anomalies_detection (PyOD-based)>heroku logs --tail
+2021-03-21T18:10:49.171761+00:00 app[web.1]: Network URL: http://172.16.201.226:8501
+2021-03-21T18:10:49.171928+00:00 app[web.1]: External URL: http://3.90.163.14:8501
+2021-03-21T18:10:49.172029+00:00 app[web.1]:
+2021-03-21T18:10:49.857872+00:00 app[web.1]: Generating new fontManager, this may take some time...
+2021-03-21T18:11:42.016719+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2021-03-21T18:11:42.063559+00:00 heroku[web.1]: Stopping process with SIGKILL
+2021-03-21T18:11:42.158990+00:00 heroku[web.1]: Process exited with status 137
+2021-03-21T18:11:42.269684+00:00 heroku[web.1]: State changed from starting to crashed
+2021-03-21T19:02:26.370070+00:00 heroku[web.1]: State changed from crashed to starting
+2021-03-21T19:02:46.378784+00:00 heroku[web.1]: Starting process with command `sh setup.sh && streamlit run "AML_Outlier_Detection.py"`
+2021-03-21T19:02:50.598039+00:00 app[web.1]: + DIR_STREAMLIT=~/.streamlit
+2021-03-21T19:02:50.598081+00:00 app[web.1]: + mkdir -p ~/.streamlit
+2021-03-21T19:02:50.606144+00:00 app[web.1]: + ls -la ~/.streamlit
+2021-03-21T19:02:50.650189+00:00 app[web.1]: total 8
+2021-03-21T19:02:50.650191+00:00 app[web.1]: drwx------ 2 u42276 dyno 4096 Mar 21 19:02 .
+2021-03-21T19:02:50.650192+00:00 app[web.1]: drwx------ 3 u42276 dyno 4096 Mar 21 19:02 ..
+2021-03-21T19:02:50.650831+00:00 app[web.1]: + sed s/\$PORT/5487/
+2021-03-21T19:02:50.660430+00:00 app[web.1]: + cat
+2021-03-21T19:02:50.675700+00:00 app[web.1]: + ls -la ~/.streamlit
+2021-03-21T19:02:50.694230+00:00 app[web.1]: total 16
+2021-03-21T19:02:50.694233+00:00 app[web.1]: drwx------ 2 u42276 dyno 4096 Mar 21 19:02 .
+2021-03-21T19:02:50.694233+00:00 app[web.1]: drwx------ 3 u42276 dyno 4096 Mar 21 19:02 ..
+2021-03-21T19:02:50.694234+00:00 app[web.1]: -rw------- 1 u42276 dyno   54 Mar 21 19:02 config.toml
+2021-03-21T19:02:50.694234+00:00 app[web.1]: -rw------- 1 u42276 dyno   48 Mar 21 19:02 credentials.toml
+2021-03-21T19:02:50.698551+00:00 app[web.1]: + nl -ba ~/.streamlit/config.toml ~/.streamlit/credentials.toml
+2021-03-21T19:02:50.704419+00:00 app[web.1]: 1  [server]
+2021-03-21T19:02:50.704421+00:00 app[web.1]: 2  headless = true
+2021-03-21T19:02:50.704422+00:00 app[web.1]: 3  enableCORS=false
+2021-03-21T19:02:50.704422+00:00 app[web.1]: 4  port = 5487
+2021-03-21T19:02:50.704423+00:00 app[web.1]: 5  [general]
+2021-03-21T19:02:50.704434+00:00 app[web.1]: 6  email = 'alvaro.montesino@gmail.com'
+2021-03-21T19:02:58.116625+00:00 app[web.1]:
+2021-03-21T19:02:58.116654+00:00 app[web.1]: Telemetry: As an open source project, we collect usage statistics.
+2021-03-21T19:02:58.116655+00:00 app[web.1]: We cannot see and do not store information contained in Streamlit apps.
+2021-03-21T19:02:58.116655+00:00 app[web.1]:
+2021-03-21T19:02:58.116655+00:00 app[web.1]: If you'd like to opt out, add the following to ~/.streamlit/config.toml,
+2021-03-21T19:02:58.116656+00:00 app[web.1]: creating that file if necessary:
+2021-03-21T19:02:58.116656+00:00 app[web.1]:
+2021-03-21T19:02:58.116657+00:00 app[web.1]: [browser]
+2021-03-21T19:02:58.116657+00:00 app[web.1]: gatherUsageStats = false
+2021-03-21T19:02:58.116658+00:00 app[web.1]:
+2021-03-21T19:02:58.224786+00:00 app[web.1]:
+2021-03-21T19:02:58.229406+00:00 app[web.1]: You can now view your Streamlit app in your browser.
+2021-03-21T19:02:58.229567+00:00 app[web.1]:
+2021-03-21T19:02:58.229853+00:00 app[web.1]: Network URL: http://172.18.101.206:8501
+2021-03-21T19:02:58.230094+00:00 app[web.1]: External URL: http://52.91.106.240:8501
+2021-03-21T19:02:58.230187+00:00 app[web.1]:
+2021-03-21T19:02:59.245182+00:00 app[web.1]: Generating new fontManager, this may take some time...
+2021-03-21T19:03:04.254668+00:00 app[web.1]: Matplotlib is building the font cache; this may take a moment.
+2021-03-21T19:03:46.492338+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2021-03-21T19:03:46.548070+00:00 heroku[web.1]: Stopping process with SIGKILL
+2021-03-21T19:03:46.710658+00:00 heroku[web.1]: Process exited with status 137
+2021-03-21T19:03:46.773386+00:00 heroku[web.1]: State changed from starting to crashed
+2021-03-21T20:28:51.351423+00:00 heroku[web.1]: State changed from crashed to starting
+2021-03-21T20:29:12.954828+00:00 heroku[web.1]: Starting process with command `sh setup.sh && streamlit run "AML_Outlier_Detection.py"`
+2021-03-21T20:29:16.276145+00:00 app[web.1]: + DIR_STREAMLIT=~/.streamlit
+2021-03-21T20:29:16.276228+00:00 app[web.1]: + mkdir -p ~/.streamlit
+2021-03-21T20:29:16.283255+00:00 app[web.1]: + ls -la ~/.streamlit
+2021-03-21T20:29:16.306984+00:00 app[web.1]: total 8
+2021-03-21T20:29:16.306986+00:00 app[web.1]: drwx------ 2 u6776 dyno 4096 Mar 21 20:29 .
+2021-03-21T20:29:16.306987+00:00 app[web.1]: drwx------ 3 u6776 dyno 4096 Mar 21 20:29 ..
+2021-03-21T20:29:16.306987+00:00 app[web.1]: + sed s/\$PORT/3846/
+2021-03-21T20:29:16.321542+00:00 app[web.1]: + cat
+2021-03-21T20:29:16.324100+00:00 app[web.1]: + ls -la ~/.streamlit
+2021-03-21T20:29:16.335011+00:00 app[web.1]: total 16
+2021-03-21T20:29:16.335013+00:00 app[web.1]: drwx------ 2 u6776 dyno 4096 Mar 21 20:29 .
+2021-03-21T20:29:16.335014+00:00 app[web.1]: drwx------ 3 u6776 dyno 4096 Mar 21 20:29 ..
+2021-03-21T20:29:16.335014+00:00 app[web.1]: -rw------- 1 u6776 dyno   54 Mar 21 20:29 config.toml
+2021-03-21T20:29:16.335015+00:00 app[web.1]: -rw------- 1 u6776 dyno   48 Mar 21 20:29 credentials.toml
+2021-03-21T20:29:16.335365+00:00 app[web.1]: + nl -ba ~/.streamlit/config.toml ~/.streamlit/credentials.toml
+2021-03-21T20:29:16.370855+00:00 app[web.1]: 1  [server]
+2021-03-21T20:29:16.370858+00:00 app[web.1]: 2  headless = true
+2021-03-21T20:29:16.370858+00:00 app[web.1]: 3  enableCORS=false
+2021-03-21T20:29:16.370859+00:00 app[web.1]: 4  port = 3846
+2021-03-21T20:29:16.370859+00:00 app[web.1]: 5  [general]
+2021-03-21T20:29:16.370860+00:00 app[web.1]: 6  email = 'alvaro.montesino@gmail.com'
+2021-03-21T20:29:24.158584+00:00 app[web.1]:
+2021-03-21T20:29:24.158608+00:00 app[web.1]: Telemetry: As an open source project, we collect usage statistics.
+2021-03-21T20:29:24.158608+00:00 app[web.1]: We cannot see and do not store information contained in Streamlit apps.
+2021-03-21T20:29:24.158609+00:00 app[web.1]:
+2021-03-21T20:29:24.158609+00:00 app[web.1]: If you'd like to opt out, add the following to ~/.streamlit/config.toml,
+2021-03-21T20:29:24.158610+00:00 app[web.1]: creating that file if necessary:
+2021-03-21T20:29:24.158610+00:00 app[web.1]:
+2021-03-21T20:29:24.158611+00:00 app[web.1]: [browser]
+2021-03-21T20:29:24.158612+00:00 app[web.1]: gatherUsageStats = false
+2021-03-21T20:29:24.158612+00:00 app[web.1]:
+2021-03-21T20:29:24.284205+00:00 app[web.1]:
+2021-03-21T20:29:24.284275+00:00 app[web.1]: You can now view your Streamlit app in your browser.
+2021-03-21T20:29:24.284334+00:00 app[web.1]:
+2021-03-21T20:29:24.284468+00:00 app[web.1]: Network URL: http://172.16.59.30:8501
+2021-03-21T20:29:24.284593+00:00 app[web.1]: External URL: http://54.83.38.13:8501
+2021-03-21T20:29:24.284651+00:00 app[web.1]:
+2021-03-21T20:29:25.285494+00:00 app[web.1]: Generating new fontManager, this may take some time...
+2021-03-21T20:29:30.299692+00:00 app[web.1]: Matplotlib is building the font cache; this may take a moment.
+2021-03-21T20:30:13.353333+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2021-03-21T20:30:13.397894+00:00 heroku[web.1]: Stopping process with SIGKILL
+2021-03-21T20:30:13.557928+00:00 heroku[web.1]: Process exited with status 137
+2021-03-21T20:30:13.729275+00:00 heroku[web.1]: State changed from starting to crashed
+2021-03-21T23:41:00.910350+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=stormy-springs-57408.herokuapp.com request_id=9da4a547-4ddd-45d3-adb6-108f4eae67e3 fwd="93.176.161.149" dyno= connect= service= status=503 bytes= protocol=https
+2021-03-21T23:41:01.744067+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=stormy-springs-57408.herokuapp.com request_id=cdc84713-d992-4458-94b9-6c5e68986981 fwd="93.176.161.149" dyno= connect= service= status=503 bytes= protocol=https
+2021-03-21T23:43:52.229147+00:00 heroku[web.1]: State changed from crashed to starting
+2
