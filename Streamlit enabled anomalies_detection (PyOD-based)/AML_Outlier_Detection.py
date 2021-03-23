@@ -120,7 +120,7 @@ def process_data_files( my_path, my_filename, my_func, my_exclusion_list, *args,
     #   - my_path (Path object): name of root directory where to start 
     #       looking for the target file.
     #   - my_filename (string): regular expression that, when matched, 
-    #       identifies the file as a target.
+    #       identifies files which are valid targets.
     #   - my_func (function): function to be applied to each of the dataframes
     #   - my_exclusion_list (list): a list of pathnames that ought to be 
     #       explicitly excluded from processing. Certain files with potentially
@@ -132,7 +132,7 @@ def process_data_files( my_path, my_filename, my_func, my_exclusion_list, *args,
     #       certain checks be performed. Zipfiles, however, presents challenges
     #       that require that same checks not be performed.
     # RETURNS:
-    #   A liat of pandas dataframes, one for each of the target datafiles that
+    #   A list of pandas dataframes, one for each of the target datafiles that
     #   were readable by pandas.
     #
 
@@ -211,8 +211,10 @@ def process_data_files( my_path, my_filename, my_func, my_exclusion_list, *args,
 ###############################################################################
 
 # By default, process the Lockdown_Tracking data.
-DATA_ROOT_DIR = Path( "C:/Users/alvar/OneDrive/Data" )
-PATH_TO_DATA_FILE = DATA_ROOT_DIR / "Short Term Datasets" / "LockDown_Tracking.csv"
+#DATA_ROOT_DIR = Path( "C:/Users/alvar/OneDrive/Data" )
+#PATH_TO_DATA_FILE = DATA_ROOT_DIR / "Short Term Datasets" / "LockDown_Tracking.csv"
+DATA_ROOT_DIR = Path( "./" )
+PATH_TO_DATA_FILE = DATA_ROOT_DIR / "LockDown_Tracking.csv"
 uploaded_file = PATH_TO_DATA_FILE
 
 # Start drawing the header for the central Stramlit frame
