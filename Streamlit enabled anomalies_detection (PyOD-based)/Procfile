@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run "AML_Outlier_Detection.py"
+web: sh setup.sh && streamlit run AML_Outlier_Detection.py

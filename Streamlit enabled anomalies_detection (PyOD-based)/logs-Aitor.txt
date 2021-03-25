@@ -1,0 +1,102 @@
+2021-03-22T00:02:32.678689+00:00 heroku[router]: at=info method=GET path="/media/aae157bbb92c5d2b13e18acf101ab27a42969c3ab8ec2753845756f9.png" host=need-energy-test01.herokuapp.com request_id=20e00939-e5c9-4c77-83bc-4baec9adb901 fwd="93.176.161.149" dyno=web.1 connect=1ms service=5ms status=304 bytes=327 protocol=https
+2021-03-22T00:02:37.000000+00:00 app[api]: Build succeeded
+2021-03-22T00:02:43.136227+00:00 heroku[router]: at=info method=GET path="/" host=need-energy-test01.herokuapp.com request_id=c0f87ff0-f4bd-42c2-88db-44d6111bf34a fwd="186.22.238.39" dyno=web.1 connect=0ms service=3ms status=304 bytes=366 protocol=https
+2021-03-22T00:02:43.370814+00:00 heroku[router]: at=info method=GET path="/static/css/9.cbc425bc.chunk.css" host=need-energy-test01.herokuapp.com request_id=2e67afe7-e327-46a7-a31c-4f74acb8391b fwd="186.22.238.39" dyno=web.1 connect=0ms service=6ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:43.546089+00:00 heroku[router]: at=info method=GET path="/static/css/main.f9685a16.chunk.css" host=need-energy-test01.herokuapp.com request_id=d88ecd18-6b8e-4cd6-96c5-efe3081ae6a2 fwd="186.22.238.39" dyno=web.1 connect=0ms service=6ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:43.741784+00:00 heroku[router]: at=info method=GET path="/static/js/9.e0304601.chunk.js" host=need-energy-test01.herokuapp.com request_id=ee8bb0f6-b155-4ba6-a958-4afd46f154ea fwd="186.22.238.39" dyno=web.1 connect=0ms service=34ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:43.746193+00:00 heroku[router]: at=info method=GET path="/static/js/main.fa59adfa.chunk.js" host=need-energy-test01.herokuapp.com request_id=6bec0dae-c11e-4fd8-99bc-12a44f1cccc1 fwd="186.22.238.39" dyno=web.1 connect=1ms service=32ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:44.695599+00:00 heroku[router]: at=info method=GET path="/static/media/IBMPlexSans-Regular.71a4981f.ttf" host=need-energy-test01.herokuapp.com request_id=300bbed0-4c57-448a-a2df-31635a65e151 fwd="186.22.238.39" dyno=web.1 connect=2ms service=6ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:45.593105+00:00 heroku[router]: at=info method=GET path="/stream" host=need-energy-test01.herokuapp.com request_id=53c8a8bd-b877-48a9-aa89-d7503669f9ea fwd="186.22.238.39" dyno=web.1 connect=1ms service=149ms status=101 bytes=344 protocol=https
+2021-03-22T00:02:45.602902+00:00 heroku[router]: at=info method=GET path="/healthz" host=need-energy-test01.herokuapp.com request_id=7102aa0b-bc41-4115-a04e-140e607e6d7a fwd="186.22.238.39" dyno=web.1 connect=0ms service=2ms status=200 bytes=375 protocol=https
+2021-03-22T00:02:46.930233+00:00 heroku[router]: at=info method=GET path="/static/js/30.8ac5109f.chunk.js" host=need-energy-test01.herokuapp.com request_id=bbed0f3d-d175-463c-88d6-09274e380bf7 fwd="186.22.238.39" dyno=web.1 connect=0ms service=5ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:46.957887+00:00 heroku[router]: at=info method=GET path="/static/media/IBMPlexSans-Bold.5a0eb98b.ttf" host=need-energy-test01.herokuapp.com request_id=0b991b28-468e-40cb-a902-d6471499fc61 fwd="186.22.238.39" dyno=web.1 connect=1ms service=4ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:47.104117+00:00 heroku[router]: at=info method=GET path="/static/media/IBMPlexMono-Regular.bee53c8c.ttf" host=need-energy-test01.herokuapp.com request_id=8a89fd00-ba76-4854-8d82-c62c7cc25125 fwd="186.22.238.39" dyno=web.1 connect=1ms service=49ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:47.543818+00:00 heroku[router]: at=info method=GET path="/static/js/38.74638a00.chunk.js" host=need-energy-test01.herokuapp.com request_id=26205db4-d8a9-48b6-8f7d-e80d5c730c65 fwd="186.22.238.39" dyno=web.1 connect=0ms service=8ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:47.569580+00:00 heroku[router]: at=info method=GET path="/static/js/20.8b98450a.chunk.js" host=need-energy-test01.herokuapp.com request_id=f7608fd6-2bd9-40fd-aa20-523734277e07 fwd="186.22.238.39" dyno=web.1 connect=1ms service=7ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:47.571844+00:00 heroku[router]: at=info method=GET path="/static/js/31.f88fd70d.chunk.js" host=need-energy-test01.herokuapp.com request_id=572647e1-8134-4962-aacf-921d082d07df fwd="186.22.238.39" dyno=web.1 connect=0ms service=10ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:47.586850+00:00 heroku[router]: at=info method=GET path="/static/js/0.91ab577e.chunk.js" host=need-energy-test01.herokuapp.com request_id=a0575ca7-2c84-4a83-976c-8c466192018a fwd="186.22.238.39" dyno=web.1 connect=0ms service=6ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:47.781955+00:00 heroku[router]: at=info method=GET path="/media/4d9dc8fbaca16f97a762f79b2e8e353187b67ae1ff4e8f30bbb8ea7a.png" host=need-energy-test01.herokuapp.com request_id=be437b78-5036-43a2-b84a-d9c8a8fd3267 fwd="186.22.238.39" dyno=web.1 connect=0ms service=41ms status=304 bytes=327 protocol=https
+2021-03-22T00:02:47.782819+00:00 heroku[router]: at=info method=GET path="/static/media/IBMPlexSans-Medium.c401b936.ttf" host=need-energy-test01.herokuapp.com request_id=9d1fc82d-9be6-4601-bf81-513599b2e38e fwd="186.22.238.39" dyno=web.1 connect=0ms service=54ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:47.783212+00:00 heroku[router]: at=info method=GET path="/static/js/5.d06e564d.chunk.js" host=need-energy-test01.herokuapp.com request_id=11b6f0a9-56ce-4e6e-8ff4-5f170b692b71 fwd="186.22.238.39" dyno=web.1 connect=1ms service=42ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:47.786656+00:00 heroku[router]: at=info method=GET path="/static/js/13.f5fcecbd.chunk.js" host=need-energy-test01.herokuapp.com request_id=9e6005f5-214e-4fc5-a70f-d5bce316a127 fwd="186.22.238.39" dyno=web.1 connect=0ms service=13ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:48.125883+00:00 heroku[router]: at=info method=GET path="/static/js/24.6c8f6ced.chunk.js" host=need-energy-test01.herokuapp.com request_id=aa6835cb-165e-4897-9eda-42447719543b fwd="186.22.238.39" dyno=web.1 connect=0ms service=58ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:49.201941+00:00 heroku[router]: at=info method=GET path="/static/js/25.d8098679.chunk.js" host=need-energy-test01.herokuapp.com request_id=716c6365-6a95-4ac1-a348-7cc368cc38f9 fwd="186.22.238.39" dyno=web.1 connect=0ms service=17ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:50.410596+00:00 heroku[router]: at=info method=GET path="/static/js/12.054a0c47.chunk.js" host=need-energy-test01.herokuapp.com request_id=6f6c8c43-0ba2-4d24-abad-8c25390f2642 fwd="186.22.238.39" dyno=web.1 connect=1ms service=947ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:50.412979+00:00 heroku[router]: at=info method=GET path="/static/js/41.8981affa.chunk.js" host=need-energy-test01.herokuapp.com request_id=8ae0a0e2-bc05-442f-9057-13a6d1909330 fwd="186.22.238.39" dyno=web.1 connect=1ms service=949ms status=304 bytes=364 protocol=https
+2021-03-22T00:02:50.413000+00:00 heroku[router]: at=info method=GET path="/media/6bbd4e75ec41028653582601221ca7efd3e8f6aca701b6d0838a9d9e.png" host=need-energy-test01.herokuapp.com request_id=9ece7c06-eeef-4cd6-a8d9-ca006b556e06 fwd="186.22.238.39" dyno=web.1 connect=0ms service=880ms status=200 bytes=18951 protocol=https
+2021-03-22T00:02:55.785997+00:00 heroku[router]: at=info method=GET path="/media/aae157bbb92c5d2b13e18acf101ab27a42969c3ab8ec2753845756f9.png" host=need-energy-test01.herokuapp.com request_id=0832f667-ba3a-4425-ab99-1e70ac6abbd7 fwd="186.22.238.39" dyno=web.1 connect=0ms service=4ms status=304 bytes=327 protocol=https
+2021-03-22T00:02:55.798892+00:00 heroku[router]: at=info method=GET path="/static/js/44.95f371ce.chunk.js" host=need-energy-test01.herokuapp.com request_id=e43435c9-1e3c-4680-9508-19a0ac3c7a90 fwd="186.22.238.39" dyno=web.1 connect=0ms service=9ms status=304 bytes=364 protocol=https
+2021-03-22T00:03:09.077655+00:00 heroku[router]: at=info method=GET path="/media/bc92f6793dfa50f904a5705900132819bcd1fe9eaf68ebdd3048a5ba.png" host=need-energy-test01.herokuapp.com request_id=5b4f1ff6-ba44-4812-8d20-f08e5f1f1b42 fwd="186.22.238.39" dyno=web.1 connect=0ms service=4371ms status=200 bytes=18011 protocol=https
+2021-03-22T00:03:12.185907+00:00 heroku[web.1]: Process running mem=696M(136.0%)
+2021-03-22T00:03:12.189771+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:03:13.765619+00:00 heroku[router]: at=info method=GET path="/media/424185ffe0b073c077b387d85988edf40efcf68b43c49d5f3a1cf6a1.png" host=need-energy-test01.herokuapp.com request_id=dba4ea8d-a23b-4e06-b28d-3494bffbfe13 fwd="186.22.238.39" dyno=web.1 connect=1ms service=27ms status=200 bytes=380463 protocol=https
+2021-03-22T00:03:21.143162+00:00 app[web.1]: /app/ADutils.py:341: SettingWithCopyWarning:
+2021-03-22T00:03:21.143189+00:00 app[web.1]:
+2021-03-22T00:03:21.143190+00:00 app[web.1]:
+2021-03-22T00:03:21.143190+00:00 app[web.1]: A value is trying to be set on a copy of a slice from a DataFrame.
+2021-03-22T00:03:21.143191+00:00 app[web.1]: Try using .loc[row_indexer,col_indexer] = value instead
+2021-03-22T00:03:21.143191+00:00 app[web.1]:
+2021-03-22T00:03:21.143194+00:00 app[web.1]: See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2021-03-22T00:03:21.143195+00:00 app[web.1]:
+2021-03-22T00:03:22.351005+00:00 heroku[router]: at=info method=GET path="/media/ae46f2f43ea771b75436ca35ff4839b2bc74576e2a20b871eff4717f.png" host=need-energy-test01.herokuapp.com request_id=ece53e78-90e1-4044-ac9c-2daabead438a fwd="186.22.238.39" dyno=web.1 connect=1ms service=31ms status=200 bytes=19303 protocol=https
+2021-03-22T00:03:26.939244+00:00 heroku[router]: at=info method=GET path="/media/fed83c2422b00634c12317eaca6b217418be941a5c0e5a68b36b084e.png" host=need-energy-test01.herokuapp.com request_id=29080e40-c5e7-4027-b2f0-e10ce200c3b4 fwd="186.22.238.39" dyno=web.1 connect=0ms service=10ms status=200 bytes=152258 protocol=https
+2021-03-22T00:03:34.737495+00:00 heroku[web.1]: Process running mem=703M(137.3%)
+2021-03-22T00:03:34.741710+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:03:57.674356+00:00 heroku[web.1]: Process running mem=703M(137.3%)
+2021-03-22T00:03:57.677707+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:04:18.355387+00:00 heroku[web.1]: Process running mem=703M(137.3%)
+2021-03-22T00:04:18.357003+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:04:39.080592+00:00 heroku[web.1]: Process running mem=703M(137.3%)
+2021-03-22T00:04:39.086080+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:04:39.920763+00:00 app[web.1]: /app/ADutils.py:341: SettingWithCopyWarning:
+2021-03-22T00:04:39.920774+00:00 app[web.1]:
+2021-03-22T00:04:39.920775+00:00 app[web.1]:
+2021-03-22T00:04:39.920776+00:00 app[web.1]: A value is trying to be set on a copy of a slice from a DataFrame.
+2021-03-22T00:04:39.920778+00:00 app[web.1]: Try using .loc[row_indexer,col_indexer] = value instead
+2021-03-22T00:04:39.920778+00:00 app[web.1]:
+2021-03-22T00:04:39.920779+00:00 app[web.1]: See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2021-03-22T00:04:39.920780+00:00 app[web.1]:
+2021-03-22T00:04:42.528583+00:00 heroku[router]: at=info method=GET path="/media/33ee28f76a844dfced6bc5e2a391705578e3f9f2a59645a39a0d00d4.png" host=need-energy-test01.herokuapp.com request_id=43443061-b18c-4315-9a8c-0081a7fc8107 fwd="186.22.238.39" dyno=web.1 connect=0ms service=21ms status=200 bytes=18817 protocol=https
+2021-03-22T00:04:43.138106+00:00 heroku[router]: at=info method=GET path="/media/59543a351a56a88b01300589071cdc7970e6eb5f80f2ed863f7da12f.png" host=need-energy-test01.herokuapp.com request_id=7fe16d48-b640-4fa0-b34b-29caa9930a3a fwd="186.22.238.39" dyno=web.1 connect=5ms service=9ms status=200 bytes=137926 protocol=https
+2021-03-22T00:05:00.025949+00:00 heroku[web.1]: Process running mem=704M(137.5%)
+2021-03-22T00:05:00.030845+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:05:23.661509+00:00 heroku[web.1]: Process running mem=704M(137.5%)
+2021-03-22T00:05:23.663345+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:05:46.944795+00:00 heroku[web.1]: Process running mem=704M(137.5%)
+2021-03-22T00:05:46.963167+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:06:07.536001+00:00 heroku[web.1]: Process running mem=704M(137.5%)
+2021-03-22T00:06:07.539490+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:06:08.698135+00:00 heroku[router]: at=info method=GET path="/" host=need-energy-test01.herokuapp.com request_id=28a5c73a-4cf8-42a2-b0b4-aaba89de7482 fwd="186.22.238.39" dyno=web.1 connect=0ms service=15ms status=304 bytes=366 protocol=https
+2021-03-22T00:06:08.977362+00:00 heroku[router]: at=info method=GET path="/static/css/9.cbc425bc.chunk.css" host=need-energy-test01.herokuapp.com request_id=6b94659d-e5ac-4133-869f-09499400c335 fwd="186.22.238.39" dyno=web.1 connect=0ms service=4ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:08.978045+00:00 heroku[router]: at=info method=GET path="/static/css/main.f9685a16.chunk.css" host=need-energy-test01.herokuapp.com request_id=b7fe0dce-4ff8-44b9-8fd3-db3a9f998d3d fwd="186.22.238.39" dyno=web.1 connect=0ms service=6ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:09.173356+00:00 heroku[router]: at=info method=GET path="/static/js/9.e0304601.chunk.js" host=need-energy-test01.herokuapp.com request_id=4e6dfda1-2d2d-4140-b6ca-830b1d38607d fwd="186.22.238.39" dyno=web.1 connect=0ms service=5ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:09.176407+00:00 heroku[router]: at=info method=GET path="/static/js/main.fa59adfa.chunk.js" host=need-energy-test01.herokuapp.com request_id=1e9f7f4d-fa5c-4740-8b0d-8cec4dba4431 fwd="186.22.238.39" dyno=web.1 connect=0ms service=2ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:09.908276+00:00 heroku[router]: at=info method=GET path="/static/media/IBMPlexSans-Regular.71a4981f.ttf" host=need-energy-test01.herokuapp.com request_id=1d918957-79ef-4b8a-bd45-3d47526df8c5 fwd="186.22.238.39" dyno=web.1 connect=0ms service=2ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:10.775061+00:00 heroku[router]: at=info method=GET path="/static/media/IBMPlexSans-Bold.5a0eb98b.ttf" host=need-energy-test01.herokuapp.com request_id=16cae7c5-7fdb-4c2e-8697-80ed12524c57 fwd="186.22.238.39" dyno=web.1 connect=0ms service=4ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:10.783310+00:00 heroku[router]: at=info method=GET path="/static/js/30.8ac5109f.chunk.js" host=need-energy-test01.herokuapp.com request_id=4fed4e0d-8df4-4ed1-8888-1dd0b575f70a fwd="186.22.238.39" dyno=web.1 connect=0ms service=3ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:10.901219+00:00 heroku[router]: at=info method=GET path="/static/media/IBMPlexMono-Regular.bee53c8c.ttf" host=need-energy-test01.herokuapp.com request_id=ec92a510-87b7-4fb7-8996-4548c16e41ca fwd="186.22.238.39" dyno=web.1 connect=1ms service=13ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:12.016582+00:00 heroku[router]: at=info method=GET path="/static/js/38.74638a00.chunk.js" host=need-energy-test01.herokuapp.com request_id=e11d28d2-b81d-4c74-97f7-0db3c34df2bb fwd="186.22.238.39" dyno=web.1 connect=1ms service=685ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:12.017525+00:00 heroku[router]: at=info method=GET path="/static/js/20.8b98450a.chunk.js" host=need-energy-test01.herokuapp.com request_id=4181bbbc-c843-403a-bdd2-aeddded505b9 fwd="186.22.238.39" dyno=web.1 connect=0ms service=676ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:12.017594+00:00 heroku[router]: at=info method=GET path="/static/js/31.f88fd70d.chunk.js" host=need-energy-test01.herokuapp.com request_id=70d20173-871d-4d2a-8bbf-6453e3cdcbd1 fwd="186.22.238.39" dyno=web.1 connect=0ms service=676ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:12.021469+00:00 heroku[router]: at=info method=GET path="/static/js/0.91ab577e.chunk.js" host=need-energy-test01.herokuapp.com request_id=4075aee1-0cc1-44df-a6a2-ffd8006769be fwd="186.22.238.39" dyno=web.1 connect=1ms service=656ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:12.023696+00:00 heroku[router]: at=info method=GET path="/static/js/5.d06e564d.chunk.js" host=need-energy-test01.herokuapp.com request_id=dd7adbb2-5aeb-4251-b312-c874cc92dcc2 fwd="186.22.238.39" dyno=web.1 connect=0ms service=16ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:12.039793+00:00 heroku[router]: at=info method=GET path="/static/js/13.f5fcecbd.chunk.js" host=need-energy-test01.herokuapp.com request_id=70cd2755-7f39-49df-b7e7-76a82a520618 fwd="186.22.238.39" dyno=web.1 connect=0ms service=32ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:12.243202+00:00 heroku[router]: at=info method=GET path="/static/js/24.6c8f6ced.chunk.js" host=need-energy-test01.herokuapp.com request_id=c8ce9dc5-61d3-400c-8354-f9910319e983 fwd="186.22.238.39" dyno=web.1 connect=0ms service=16ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:12.244133+00:00 heroku[router]: at=info method=GET path="/static/media/IBMPlexSans-Medium.c401b936.ttf" host=need-energy-test01.herokuapp.com request_id=837e92be-24a6-46d0-b755-ca40682e156f fwd="186.22.238.39" dyno=web.1 connect=0ms service=17ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:12.253579+00:00 heroku[router]: at=info method=GET path="/media/4d9dc8fbaca16f97a762f79b2e8e353187b67ae1ff4e8f30bbb8ea7a.png" host=need-energy-test01.herokuapp.com request_id=dcbc3da1-ee28-44f4-b32a-f33c63005093 fwd="186.22.238.39" dyno=web.1 connect=0ms service=3ms status=304 bytes=327 protocol=https
+2021-03-22T00:06:18.740894+00:00 heroku[router]: at=info method=GET path="/static/js/25.d8098679.chunk.js" host=need-energy-test01.herokuapp.com request_id=7ab8b371-ea4f-49b3-aea3-7356c51ed94d fwd="186.22.238.39" dyno=web.1 connect=0ms service=5979ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:18.917739+00:00 heroku[router]: at=info method=GET path="/static/js/12.054a0c47.chunk.js" host=need-energy-test01.herokuapp.com request_id=806d783a-4050-45c8-b2e1-9da2091f1624 fwd="186.22.238.39" dyno=web.1 connect=0ms service=5811ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:18.920881+00:00 heroku[router]: at=info method=GET path="/static/js/41.8981affa.chunk.js" host=need-energy-test01.herokuapp.com request_id=1007ab03-fdf2-4759-a637-0772a1ca351e fwd="186.22.238.39" dyno=web.1 connect=0ms service=5809ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:18.929940+00:00 heroku[router]: at=info method=GET path="/media/6bbd4e75ec41028653582601221ca7efd3e8f6aca701b6d0838a9d9e.png" host=need-energy-test01.herokuapp.com request_id=cfb34945-69a5-43e8-b336-55fe07b8c586 fwd="186.22.238.39" dyno=web.1 connect=0ms service=5781ms status=304 bytes=327 protocol=https
+2021-03-22T00:06:29.607898+00:00 heroku[web.1]: Process running mem=704M(137.5%)
+2021-03-22T00:06:29.611810+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:06:45.923060+00:00 heroku[router]: at=info method=GET path="/media/aae157bbb92c5d2b13e18acf101ab27a42969c3ab8ec2753845756f9.png" host=need-energy-test01.herokuapp.com request_id=020528ab-eedd-4532-ac91-3a7b5d1eac5d fwd="186.22.238.39" dyno=web.1 connect=0ms service=4015ms status=304 bytes=327 protocol=https
+2021-03-22T00:06:46.301934+00:00 heroku[router]: at=info method=GET path="/static/js/44.95f371ce.chunk.js" host=need-energy-test01.herokuapp.com request_id=ee2d1f85-a072-459d-8e06-4284d0033d2f fwd="186.22.238.39" dyno=web.1 connect=0ms service=5ms status=304 bytes=364 protocol=https
+2021-03-22T00:06:52.300972+00:00 heroku[web.1]: Process running mem=704M(137.5%)
+2021-03-22T00:06:52.303049+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:07:13.129718+00:00 heroku[web.1]: Process running mem=704M(137.5%)
+2021-03-22T00:07:13.132421+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:07:35.252252+00:00 heroku[web.1]: Process running mem=704M(137.5%)
+2021-03-22T00:07:35.254369+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)
+2021-03-22T00:07:59.840696+00:00 heroku[web.1]: Process running mem=704M(137.5%)
+2021-03-22T00:07:59.871772+00:00 heroku[web.1]: Error R14 (Memory quota exceeded)

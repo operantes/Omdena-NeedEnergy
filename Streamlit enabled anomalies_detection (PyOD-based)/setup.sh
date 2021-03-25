@@ -3,19 +3,23 @@ set -x
 DIR_STREAMLIT='~/.streamlit'
 mkdir -p $DIR_STREAMLIT
 
-ls -la $DIR_STREAMLIT
+ls -la ~/.
+env
 
-sed 's/\$PORT/'$PORT'/' > $DIR_STREAMLIT/config.toml <<EOF2
+cat > $DIR_STREAMLIT/config.toml <<EOF
 [server]
 headless = true
-enableCORS=false
+enableCORS = false
 port = $PORT
-EOF2
+
+EOF
 
 cat > $DIR_STREAMLIT/credentials.toml <<EOF
 [general]
-email = 'alvaro.montesino@gmail.com' 
+email = alvaro.montesino@gmail.com 
+
 EOF
 
+chmod -R ug+r $DIR_STREAMLIT
 ls -la $DIR_STREAMLIT
 nl -ba $DIR_STREAMLIT/*.toml
